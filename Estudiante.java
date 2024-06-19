@@ -7,10 +7,10 @@ public class Estudiante
 {
     private String nombre;
     private String apellido;
-    private int edad;
+    private String edad;
     private String codigo;
     
-    public Estudiante (String nombre, String apellido, int edad, String codigo){
+    public Estudiante (String nombre, String apellido, String edad, String codigo){
         this.nombre = nombre;
         this.apellido = apellido;
         this.edad = edad;
@@ -25,7 +25,7 @@ public class Estudiante
         return apellido;
     }
     
-    public int getEdad (){
+    public String getEdad (){
         return edad;
     }
     
@@ -41,7 +41,7 @@ public class Estudiante
         this.apellido = apellido;
     }
     
-    public void setEdad(int edad){
+    public void setEdad(String edad){
         this.edad = edad;
     }
     
